@@ -366,28 +366,15 @@ html.js .reveal.is-visible { opacity: 1; transform: none; }
   line-height: 1.5;
 }
 
-/* ---------- Блок «для шафера» ---------- */
+/* ---------- Акцентная карточка (например, количество гостей) ---------- */
 
-.groomsman-cta {
-  position: relative;
-  margin-top: 3rem;
-  padding: 2.4rem 1.8rem;
-  border: 1px solid var(--gold-soft);
-  border-radius: 3px;
-  background: var(--card);
-  text-align: center;
-  overflow: hidden;
+.card--accent {
+  background: #F9F1DE;
+  border-color: var(--gold-soft);
 }
-.groomsman-cta::before {
-  content: '';
-  position: absolute;
-  inset: 7px;
-  border: 1px solid var(--line);
-  border-radius: 2px;
-  pointer-events: none;
-}
-.groomsman-cta h3 { font-size: 1.7rem; }
-.groomsman-cta p { color: var(--ink-soft); font-size: .95rem; max-width: 46ch; margin: .5rem auto 1.4rem; }
+.card--accent h3 { color: var(--gold); }
+
+/* ---------- Кнопки ---------- */
 
 .btn {
   display: inline-block;
@@ -581,7 +568,6 @@ html.js .reveal.is-visible { opacity: 1; transform: none; }
   .hero__floral--br { bottom: -18px; right: -18px; width: 62vw; opacity: .8; }
   .hero__scroll { display: none; }
   .card { padding: 1.7rem 1.3rem; }
-  .groomsman-cta { padding: 2rem 1.2rem; }
 }
 
 @media (max-width: 380px) {
