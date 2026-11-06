@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Страница шафера · Илья &amp; Екатерина — 27 февраля 2027</title>
+  <meta name="description" content="Личная страница шафера жениха: чек-лист дел и план дня свадьбы Ильи и Екатерины — 27 февраля 2027.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="back-link" href="index.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 5l-7 7 7 7"/></svg>
+    На главную
+  </a>
+
+  <!-- ==================== ГЛАВНЫЙ ЭКРАН ==================== -->
+  <header class="hero hero--groomsman">
+    <div class="hero__inner">
+      <img class="hero__emblem" src="assets/img/boutonniere.png" alt="Бабочка, бутоньерка и обручальные кольца — акварельная иллюстрация">
+      <span class="overline">Личная страница · только для своих</span>
+      <h1 class="hero__names" style="font-size: clamp(2.6rem, 9vw, 5rem);">Шафер<br>жениха</h1>
+      <p class="hero__sub">Илья доверяет тебе самое важное в этот день: кольца, документы и спокойствие жениха. На этой странице — твой личный план действий.</p>
+
+      <div class="orn" aria-hidden="true">
+        <svg viewBox="0 0 150 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 13h54M92 13h54" stroke="currentColor" stroke-width="1"/>
+          <rect x="71" y="9" width="8" height="8" transform="rotate(45 75 13)" stroke="currentColor" stroke-width="1"/>
+          <circle cx="63" cy="13" r="1.4" fill="currentColor"/>
+          <circle cx="87" cy="13" r="1.4" fill="currentColor"/>
+        </svg>
+      </div>
+      <p class="hero__date" style="margin-top:.9rem;">Свадьба Ильи и Екатерины · <b>27 февраля 2027</b></p>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== РОЛЬ ==================== -->
+    <section class="section" style="padding-top: clamp(2.5rem, 6vw, 4rem);">
+      <div class="container container--narrow">
+        <div class="invite__text reveal">
+          <span class="overline">Твоя роль</span>
+          <h2 class="section-title" style="margin-top:.7rem;">Правая рука жениха</h2>
+          <div class="orn" aria-hidden="true">
+            <svg viewBox="0 0 150 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13h54M92 13h54" stroke="currentColor" stroke-width="1"/>
+              <rect x="71" y="9" width="8" height="8" transform="rotate(45 75 13)" stroke="currentColor" stroke-width="1"/>
+              <circle cx="63" cy="13" r="1.4" fill="currentColor"/>
+              <circle cx="87" cy="13" r="1.4" fill="currentColor"/>
+            </svg>
+          </div>
+          <p style="margin-top:1.5rem;">Шафер — это не просто статус на фото. Это человек, рядом с которым жених спокоен. Ты отвечаешь за мелочи, из которых складывается большой день: чтобы кольца были под рукой, гости — встречены, а тост — произнесён вовремя и от души.</p>
+          <p><strong>Отмечай выполненные дела прямо на этой странице</strong> — прогресс сохраняется в твоём браузере.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ЧЕК-ЛИСТ ==================== -->
+    <section class="section section--soft" id="checklist">
+      <div class="container">
+        <span class="overline reveal">Держи всё под контролем</span>
+        <h2 class="section-title reveal" style="margin-top:.7rem;">Чек-лист шафера</h2>
+
+        <div class="progress reveal">
+          <div class="progress__bar"><div class="progress__fill" id="progress-fill"></div></div>
+          <div class="progress__label">Готовность: <b id="progress-value">0%</b></div>
+        </div>
+
+        <div class="checklist reveal">
+          <div class="checklist__group">
+            <h3>До свадьбы</h3>
+            <label class="check">
+              <input type="checkbox" data-key="pre-1">
+              <span class="check__box"></span>
+              <span class="check__text">Созвониться с женихом и уточнить план дня<small>Сделай за неделю до свадьбы</small></span>
+            </label>
+            <label class="check">
+              <input type="checkbox" data-key="pre-2">
+              <span class="check__box"></span>
+              <span class="check__text">Подготовить речь и тост<small>Напиши текст заранее, выучи начало наизусть</small></span>
+            </label>
+            <label class="check">
+              <input type="checkbox" data-key="pre-3">
+              <span class="check__box"></span>
+              <span class="check__text">Обсудить с ведущим сценарий выкупа и конкурсы<small>Узнай тайминг у координатора</small></span>
+            </label>
+            <label class="check">
+              <input type="checkbox" data-key="pre-4">
+              <span class="check__box"></span>
+              <span class="check__text">Помочь жениху с образом: костюм, бабочка, обувь</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" data-key="pre-5">
+              <span class="check__box"></span>
+              <span class="check__text">Сохранить номера координатора и организаторов</span>
+            </label>
+          </div>
+
+          <div class="checklist__group">
+            <h3>В день свадьбы</h3>
+            <label class="check">
+              <input type="checkbox" data-key="day-1">
+              <span class="check__box"></span>
+              <span class="check__text">Быть у жениха к 10:00<small>Заряженный телефон и хорошее настроение обязательны</small></span>
+            </label>
+            <label class="check">
+              <input type="checkbox" data-key="day-2">
+              <span class="check__box"></span>
+              <span class="check__text">Взять под контроль кольца и паспорта</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" data-key="day-3">
+              <span class="check__box"></span>
+              <span class="check__text">Выехать раньше гостей<small>Прибыть на площадку за 30–40 минут до сбора</small></span>
+            </label>
+            <label class="check">
+              <input type="checkbox" data-key="day-4">
+              <span class="check__box"></span>
+              <span class="check__text">Встретить гостей и помочь им разместиться</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" data-key="day-5">
+              <span class="check__box"></span>
+              <span class="check__text">Держать кольца наготове во время церемонии</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" data-key="day-6">
+              <span class="check__box"></span>
+              <span class="check__text">Помогать ведущему и следить за настроением жениха<small>Вода, перекус и пара ободряющих слов творят чудеса</small></span>
+            </label>
+          </div>
+
+          <div class="checklist__group">
+            <h3>Взять с собой</h3>
+            <label class="check">
+              <input type="checkbox" data-key="pack-1">
+              <span class="check__box"></span>
+              <span class="check__text">Кольца и документы<small>Перепроверь перед выездом — дважды</small></span>
+            </label>
+            <label class="check">
+              <input type="checkbox" data-key="pack-2">
+              <span class="check__box"></span>
+              <span class="check__text">Телефон и пауэрбанк</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" data-key="pack-3">
+              <span class="check__box"></span>
+              <span class="check__text">Набор спасателя: иголка с ниткой, пластыри, салфетки</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" data-key="pack-4">
+              <span class="check__box"></span>
+              <span class="check__text">Немного наличных на мелкие расходы</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" data-key="pack-5">
+              <span class="check__box"></span>
+              <span class="check__text">Улыбка и запас шуток<small>Главный аксессуар шафера</small></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ПЛАН ДНЯ ШАФЕРА ==================== -->
+    <section class="section">
+      <div class="container">
+        <span class="overline reveal">Твой личный тайминг</span>
+        <h2 class="section-title reveal" style="margin-top:.7rem;">План дня шафера</h2>
+        <div class="orn reveal" aria-hidden="true">
+          <svg viewBox="0 0 150 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 13h54M92 13h54" stroke="currentColor" stroke-width="1"/>
+            <rect x="71" y="9" width="8" height="8" transform="rotate(45 75 13)" stroke="currentColor" stroke-width="1"/>
+            <circle cx="63" cy="13" r="1.4" fill="currentColor"/>
+            <circle cx="87" cy="13" r="1.4" fill="currentColor"/>
+          </svg>
+        </div>
+
+        <!-- ЗАМЕНИТЕ: время пунктов плана при необходимости -->
+        <div class="timeline">
+          <div class="tl-item tl-item--you reveal">
+            <div class="tl-item__time">10:00<span class="tl-badge">Старт</span></div>
+            <h3>Ты у жениха</h3>
+            <p>Помочь собраться: бабочка, ремень, карманы. Принять кольца и документы на ответственное хранение.</p>
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-item__time">12:30</div>
+            <h3>Выезд на площадку</h3>
+            <p>Едете раньше гостей. Проверь: кольца? документы? телефон заряжен?</p>
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-item__time">13:45</div>
+            <h3>Встреча гостей</h3>
+            <p>Встречай, подсказывай, где welcome-зона, знакомь гостей между собой.</p>
+          </div>
+          <div class="tl-item tl-item--you reveal">
+            <div class="tl-item__time">15:00<span class="tl-badge">Важно</span></div>
+            <h3>Церемония</h3>
+            <p>Твой выход вместе с женихом. В нужный момент — кольца. Держи их крепко.</p>
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-item__time">16:00</div>
+            <h3>Фотосессия</h3>
+            <p>Помогай собрать гостей для общих фото и следи, чтобы никто не скучал.</p>
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-item__time">17:00</div>
+            <h3>Банкет и тост</h3>
+            <p>Твой тост — после первого от родителей. Не затягивай: искренность короче шуток.</p>
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-item__time">19:00</div>
+            <h3>Первый танец</h3>
+            <p>Подготовь гостей к встрече пары — свет приглушён, телефоны наготове.</p>
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-item__time">23:00</div>
+            <h3>Финал</h3>
+            <p>Помоги с проводами гостей, собери подарки и цветы. Ты — герой этого дня.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ФИНАЛ ==================== -->
+    <section class="section section--soft finale">
+      <div class="container container--narrow">
+        <span class="overline reveal">Напутствие</span>
+        <h2 class="section-title finale__title reveal" style="margin-top:.7rem;">Ты справишься!</h2>
+        <p class="reveal">Двадцать лет дружбы — лучшая подготовка к роли шафера. Просто будь рядом, и этот день станет идеальным. Спасибо, что ты с нами!</p>
+        <a class="btn btn--gold reveal" href="index.html">Вернуться на главную</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__names">Илья &amp; Екатерина</div>
+    <div class="footer__date">27 февраля 2027</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
